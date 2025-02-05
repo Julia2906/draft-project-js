@@ -1,0 +1,25 @@
+ul li {
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+
+.projects-list-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.technologies-list {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin-bottom: 223px;
+}
+
+.technologies-list-item {
+  border: 1px solid #1c1d2033;
+  border-radius: 60px;
+  width: auto;
+  padding: 18px;
+}
