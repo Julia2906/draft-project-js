@@ -8,6 +8,15 @@ p {
 .projects-list-item {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-list-item-container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 64px;
+  background-color: #fafafa;
 }
 
 .technologies-list {
@@ -15,6 +24,7 @@ p {
   flex-direction: row;
   gap: 6px;
   margin-bottom: 223px;
+  padding: 0;
 }
 
 .technologies-list-item {
@@ -22,4 +32,23 @@ p {
   border-radius: 60px;
   width: auto;
   padding: 18px;
+}
+
+.projects-list-title {
+  font-size: 44px;
+  font-weight: 500;
+  max-width: 494px;
+}
+
+.projects-button {
+  padding: 18px 50px;
+  border: none;
+  border-radius: 60px;
+  background-color: #e6533c;
+  color: #fafafa;
+}
+
+.projects-list-image-container {
+  padding: 120px 37px;
+  background-color: #242527;
 }
