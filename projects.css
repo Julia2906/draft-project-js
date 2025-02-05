@@ -1,22 +1,43 @@
 ul li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 p {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+}
+
 .projects-list-item {
+  width: 1376px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  border-radius: 24px;
 }
 
 .projects-list-item-container {
+  display: flex;
+  flex-direction: column;
   padding-top: 64px;
   padding-bottom: 64px;
   padding-left: 64px;
-  background-color: #fafafa;
 }
 
 .technologies-list {
@@ -32,23 +53,36 @@ p {
   border-radius: 60px;
   width: auto;
   padding: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.02em;
 }
 
 .projects-list-title {
   font-size: 44px;
   font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.03em;
   max-width: 494px;
+  margin-bottom: 32px;
 }
 
 .projects-button {
+  max-width: 177px;
   padding: 18px 50px;
   border: none;
   border-radius: 60px;
   background-color: #e6533c;
   color: #fafafa;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.02em;
 }
 
 .projects-list-image-container {
   padding: 120px 37px;
   background-color: #242527;
+  border-radius: 0 24px 24px 0;
 }
